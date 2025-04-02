@@ -4,6 +4,7 @@ void main() {
   double numeroUm = 0;
   double numeroDois = 0;
   String operacao = "";
+  List<String> operacoes = <String>["+", "-", "*", "/"];
 
   void soma() {
     print(numeroUm + numeroDois);
